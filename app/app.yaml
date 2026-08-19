@@ -1,0 +1,9 @@
+command: ["python", "app.py"]
+env:
+  - name: GENIE_SPACE_ID
+    value: "REPLACE_WITH_YOUR_GENIE_SPACE_ID"
+
+# Per-user access (OBO) is enabled in the app's settings, not here:
+# turn on "user authorization" and add the scopes `sql` and `genie`.
+# See ../docs/path3-databricks-app-teams-tab.md (step 4) and
+# https://docs.databricks.com/aws/en/dev-tools/databricks-apps/auth
