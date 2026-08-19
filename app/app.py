@@ -18,7 +18,7 @@ PAGE = """
 <!doctype html>
 <title>Pharmacy Inventory Assistant</title>
 <h2>Pharmacy Inventory Assistant</h2>
-<input id="q" style="width:70%" placeholder="e.g. How many naloxone sprays are on hand today?">
+<input id="q" style="width:70%" placeholder="e.g. How many units are on hand today?">
 <button onclick="ask()">Ask</button>
 <pre id="out"></pre>
 <script>
